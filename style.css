@@ -1,0 +1,115 @@
+*{
+ 
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1440px;
+    padding: 0 32px;
+    margin: auto;
+}
+
+.navigation-header{
+width: 100%;
+padding: 52px 147px;
+}
+
+
+.navigation-header nav .left-side{
+display: flex;
+align-items: center;
+}
+
+.navigation-header nav .left-side img{
+margin-right: 450px;
+}
+
+.navigation-header nav .left-side .navigation-items{
+    display: flex;
+    column-gap: 32px;
+}
+
+.navigation-header nav .left-side .navigation-items a{
+color: #191919;
+text-align: right;
+font-family: Roboto;
+font-size: 16px;
+text-decoration: none;
+font-weight: 400;
+line-height: normal;
+}
+
+.navigation-header nav .left-side .navigation-items a:hover{
+    color: #3C4BA6;
+}
+
+.hero-section .container{
+    padding-top: 157px;
+    padding-bottom: 192px;
+    display: flex;
+}
+
+.hero-section .container .left-side{
+width: 563px;
+}
+
+.hero-section .container .left-side h1{
+ color: #191919;
+font-size: 72px;
+font-weight: 600;
+line-height: 120%; 
+letter-spacing: 0.3px;
+margin-bottom: 60px;
+
+}
+
+.hero-section .container .left-side p{
+    width: 370px;
+    margin-bottom: 60px;
+    
+}
+
+.hero-section .container .left-side .subscribe-container{
+   display: flex; 
+}
+
+.hero-section .container .left-side .subscribe-container input{
+    padding: 30px 114px 30px 35px;
+    border: 1px solid #191919;
+    background-color: white;
+    border-top-left-radius: 3px;
+     border-bottom-left-radius: 3px;
+}
+
+.hero-section .container .left-side .subscribe-container button{
+    padding: 31px 21px;
+    background-color: #3C4BA6;
+    border-radius: 0px 6px 6px 0px;
+    border:none;
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 18px;
+
+font-weight: 700;
+line-height: 170%; /* 30.6px */
+letter-spacing: 0.2px;
+text-transform: capitalize;
+}
+
+.hero-section .container .left-side .subscribe-container input::placeholder{
+    color: #191919;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 100%; /* 16px */
+letter-spacing: 0.2px;
+text-transform: capitalize;
+}
+
+
+.hero-section .container .right-side{
+width: 454px;
+height: 541px;
+<img src="./8331 1.png" alt="png">
+}
